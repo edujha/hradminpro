@@ -10,8 +10,6 @@ import { APP_ROUTERS } from './app.routes';
 
 // Modulos
 import { PagesModule } from './pages/pages.module';
-import { FormsModule } from '@angular/forms';
-
 
 
 @NgModule({
@@ -23,8 +21,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     APP_ROUTERS,
-    PagesModule,
-    FormsModule
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
